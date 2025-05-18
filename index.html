@@ -1,38 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thulasi N - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2, h3 {
+      color: #34495e;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #1565c0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Thulasi N</h1>
-  <p><strong>MCA Student | Software Developer</strong></p>
 
-  <h2>About Me</h2>
-  <p>I am a passionate and dedicated MCA student focused on becoming a skilled software developer. I enjoy building creative and user-friendly applications using modern tools and technologies.</p>
+  <div class="section">
+    <h1>Hello, I'm Thulasi N</h1>
+    <h2>MCA Student | Software Developer</h2>
+    <p>I am a passionate and dedicated MCA student focused on becoming a skilled software developer. I enjoy building creative and user-friendly applications using modern tools and technologies.</p>
+  </div>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python</li>
-    <li>Figma</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Firebase</li>
-    <li>Kotlin</li>
-    <li>SQL</li>
-  </ul>
+  <div class="section">
+    <h3>Skills</h3>
+    <ul>
+      <li>Python</li>
+      <li>Figma</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Firebase</li>
+      <li>Kotlin</li>
+      <li>SQL</li>
+    </ul>
+  </div>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Hospital Locator App:</strong> Helps users find nearby hospitals using GPS and maps.</li>
-    <li><strong>Smart Grocery List and Budget Planner App:</strong> Allows users to manage grocery lists, track budgets, and get expiry reminders.</li>
-  </ul>
+  <div class="section">
+    <h3>Projects</h3>
+    <ul>
+      <li>
+        <strong>Hospital Locator App</strong><br />
+        A mobile application that helps users find nearby hospitals using GPS and Google Maps integration. Built using <strong>Kotlin</strong> and <strong>Firebase</strong>.
+        <br /><strong>Features:</strong>
+        <ul>
+          <li>Real-time location tracking</li>
+          <li>View hospitals on a map</li>
+          <li>Hospital details with contact</li>
+          <li>User feedback and ratings</li>
+        </ul>
+      </li>
+      <br />
+      <li>
+        <strong>Smart Grocery List and Budget Planner App</strong><br />
+        An app that helps users manage their grocery needs. Built using <strong>Kotlin</strong>, <strong>Firebase</strong>, and designed in <strong>Figma</strong>.
+        <br /><strong>Features:</strong>
+        <ul>
+          <li>Grocery list creation</li>
+          <li>Monthly budget tracking</li>
+          <li>Expiry date reminders</li>
+          <li>Recipe-based auto-listing</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 
-  <h2>Resume</h2>
-  <p><a href="YOUR_RESUME_LINK_HERE" target="_blank">Download My Resume</a></p>
+  <div class="section">
+    <h3>Resume</h3>
+    <a href="resume.pdf" download class="button">Download My Resume</a>
+  </div>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:thulasi26012003@gmail.com">thulasi26012003@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">linkedin.com/in/YOUR-LINKEDIN</a></p>
-  <p>GitHub: <a href="https://github.com/YOUR-GITHUB" target="_blank">github.com/YOUR-GITHUB</a></p>
+  <div class="section">
+    <h3>Contact</h3>
+    <p><strong>Email:</strong> <a href="mailto:thulasi26012003@gmail.com">thulasi26012003@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/YOUR-LINKEDIN">linkedin.com/in/YOUR-LINKEDIN</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/YOUR-GITHUB">github.com/YOUR-GITHUB</a></p>
+  </div>
+
 </body>
 </html>
